@@ -13,6 +13,7 @@
 		E409A5A7286F20540049B9D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E409A5A5286F20540049B9D1 /* Main.storyboard */; };
 		E409A5A9286F20550049B9D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E409A5A8286F20550049B9D1 /* Assets.xcassets */; };
 		E409A5AC286F20550049B9D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E409A5AA286F20550049B9D1 /* LaunchScreen.storyboard */; };
+		E409A5B4286F20770049B9D1 /* DogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E409A5B3286F20770049B9D1 /* DogService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E409A5A8286F20550049B9D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E409A5AB286F20550049B9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E409A5AD286F20550049B9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E409A5B3286F20770049B9D1 /* DogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E409A59F286F20540049B9D1 /* AppDelegate.swift */,
 				E409A5A1286F20540049B9D1 /* SceneDelegate.swift */,
 				E409A5A3286F20540049B9D1 /* ViewController.swift */,
+				E409A5B3286F20770049B9D1 /* DogService.swift */,
 				E409A5A5286F20540049B9D1 /* Main.storyboard */,
 				E409A5A8286F20550049B9D1 /* Assets.xcassets */,
 				E409A5AA286F20550049B9D1 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				E409A5A4286F20540049B9D1 /* ViewController.swift in Sources */,
 				E409A5A0286F20540049B9D1 /* AppDelegate.swift in Sources */,
+				E409A5B4286F20770049B9D1 /* DogService.swift in Sources */,
 				E409A5A2286F20540049B9D1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
