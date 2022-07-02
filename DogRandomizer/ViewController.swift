@@ -25,18 +25,18 @@ class ViewController: UIViewController {
 
     func setUpImageView() {
         image = UIImageView()
-        image!.layer.backgroundColor = UIColor.systemBackground.cgColor
-        image!.layer.cornerRadius = 10
-        image!.contentMode = .scaleAspectFit
-        image!.clipsToBounds = true
+        image?.layer.backgroundColor = UIColor.systemBackground.cgColor
+        image?.layer.cornerRadius = 10
+        image?.contentMode = .scaleAspectFit
+        image?.clipsToBounds = true
         view.addSubview(image!)
         
-        image!.translatesAutoresizingMaskIntoConstraints = false
-        image!.heightAnchor.constraint(equalTo: image!.widthAnchor, multiplier: 3.0/1.0).isActive = true
-        image!.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        image!.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        image!.leftAnchor.constraint(equalTo: view.layoutMarginsGuide.leftAnchor, constant: 20).isActive = true
-        image!.rightAnchor.constraint(equalTo: view.layoutMarginsGuide.rightAnchor, constant: -20).isActive = true
+        image?.translatesAutoresizingMaskIntoConstraints = false
+        image?.heightAnchor.constraint(equalTo: image!.widthAnchor, multiplier: 3.0/1.0).isActive = true
+        image?.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        image?.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        image?.leftAnchor.constraint(equalTo: view.layoutMarginsGuide.leftAnchor, constant: 20).isActive = true
+        image?.rightAnchor.constraint(equalTo: view.layoutMarginsGuide.rightAnchor, constant: -20).isActive = true
     }
     
     func setUpLabel() {
@@ -96,8 +96,7 @@ class ViewController: UIViewController {
             DispatchQueue.main.async {
                 self?.image?.image = dog
             }
-            
         }
-        
-    }}
+    }
+}
 
